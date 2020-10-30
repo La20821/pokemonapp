@@ -23,7 +23,8 @@ app.use(express.static('public'));
 
   
   
+var port = process.env.PORT || 3000;
 
-app.listen(3000, () => {
-    console.log('running and working')
+app.listen(port,()=>{
+    console.log("listening");
 });
