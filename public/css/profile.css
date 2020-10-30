@@ -1,0 +1,30 @@
+h1{ 
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    font-size: 80px;
+}
+h3 {
+
+}
+
+body {
+    text-align: center;
+    padding-top: 30px;
+    background-image: linear-gradient(black, #cccccc);
+    height: 100%;
+    width: 100%;
+}
+
+
+input[type='text'] {
+    align-items: center;
+}
+
+input[type='submit'] {
+    margin-left: 80px;
+    color: blue;
+    cursor: pointer;
+    font-size: 100px;
+    box-sizing: border-box;
+    border-radius: -5px;
+}

@@ -1,0 +1,33 @@
+html{
+    border: 2px solid red;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    text-emphasis-color: yellow;
+    font-size: 80px;
+    
+}
+body {
+    text-align: center;
+    background-image: linear-gradient(black, #cccccc);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-emphasis-color: yellow;
+    
+}
+
+body, input {
+    font-size: 30px;
+}
+
+input[type='submit'] {
+    margin-left: 100px;
+    color: blue;
+    cursor: pointer;
+    font-size: 100px;
+    box-sizing: border-box;
+    border-radius: -5px;
+}
